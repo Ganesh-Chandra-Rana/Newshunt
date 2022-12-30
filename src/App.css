@@ -1,0 +1,27 @@
+.navbar{
+  font-family: 'Poppins', sans-serif;
+}
+.nav-pills{
+  color:blue;
+padding: 2px;
+  transition:transform .2s;
+}
+.nav-pills:hover{
+  border:0.5px solid blue;
+transform: rotate(-0.5deg);
+transform:scale(1.1);
+
+}
+.navbar :active{
+  color: lightcoral;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
